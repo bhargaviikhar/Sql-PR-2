@@ -23,4 +23,4 @@ create table Student_2
  primary key (roll_no,course_id,semester),
  foreign key (roll_no) references Student_2 (roll_no),
  foreign key (course_id) references Course (course_id));# Sql-PR-2
-....
+
